@@ -1,0 +1,92 @@
+.header {
+  background: #000000;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.jobContainer {
+  width: 80%;
+  margin: 30px auto;
+  background: white;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.jobHeader {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.jobHeader h2 {
+  margin: 0;
+  font-size: 28px;
+  color: #003366;
+}
+
+.companyInfo {
+  margin-top: 10px;
+  color: #555;
+  font-size: 15px;
+}
+
+.companyInfo span {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.section {
+  margin-top: 25px;
+}
+
+.section h3 {
+  color: #003366;
+  border-left: 5px solid #003366;
+  padding-left: 10px;
+}
+
+.section ul {
+  margin: 10px 0 0 20px;
+}
+
+.section li {
+  margin-bottom: 6px;
+  color: #444;
+}
+
+.applyBtn {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 12px 25px;
+  background: #003366;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.applyBtn:hover {
+  background: #0055aa;
+}
+
+.appliedMsg {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 12px 25px;
+  background: #4caf50;
+  color: white;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.errorMsg {
+  color: #c0392b;
+  margin-top: 10px;
+  font-size: 14px;
+}

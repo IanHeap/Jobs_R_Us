@@ -24,6 +24,15 @@ export type UniversityInput = {
   Uni_Email?: string;
 };
 
+export type JobInput = {
+  Job_Title: string;
+  Job_Desc?: string;
+  Job_Location?: string;
+  Job_Type?: string;
+  Job_Category?: string;
+  Cmp_id: number;
+};
+
 export type AppStatus = 'applied' | 'reviewing' | 'accepted' | 'rejected';
 
 export type StudentMajorGPA = {
