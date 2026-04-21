@@ -1,0 +1,115 @@
+/* Hero Section */
+.hero {
+  background: linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0.158));
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.searchBar {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.searchBar input {
+  flex: 1;
+  padding: 15px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+}
+
+.searchBar button {
+  background: #000000;
+  color: rgb(255, 255, 255);
+  padding: 15px 25px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.searchBar button:hover {
+  background: #414141;
+}
+
+/* Sections */
+.section {
+  width: 80%;
+  margin: 40px auto;
+}
+
+.section h3 {
+  color: #003366;
+  border-left: 5px solid #003366;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+/* Job Cards */
+.jobCard {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.jobCard h4 {
+  margin: 0;
+  color: #003366;
+}
+
+.jobCard p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.applyLink {
+  display: inline-block;
+  margin-top: 10px;
+  color: #003366;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.applyLink:hover {
+  text-decoration: underline;
+}
+
+/* Categories */
+.categories {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.categoryBox {
+  background: #e6f0ff;
+  padding: 15px 25px;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #003366;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.categoryBox:hover {
+  background: #cddff9;
+}

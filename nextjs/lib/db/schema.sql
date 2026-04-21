@@ -32,6 +32,17 @@ CREATE TABLE IF NOT EXISTS Company (
     Cmp_Email       TEXT    UNIQUE
 );
 
+-- job
+CREATE TABLE IF NOT EXISTS Job (
+    Job_id       INTEGER PRIMARY KEY AUTOINCREMENT,
+    Job_Title    TEXT    NOT NULL,
+    Job_Desc     TEXT,
+    Job_Location TEXT,
+    Job_Type     TEXT,
+    Job_Category TEXT,
+    Cmp_id       INTEGER NOT NULL REFERENCES Company(Cmp_id) ON DELETE CASCADE
+);
+
 -- application
 CREATE TABLE IF NOT EXISTS Application (
     App_id      INTEGER PRIMARY KEY AUTOINCREMENT,
