@@ -59,7 +59,6 @@ export default function LoginPage() {
 
           <div className={styles.divider}><span>or</span></div>
 
-          <button type="button" className={styles.googleBtn}>Continue with Google</button>
         </form>
 
         <div className={styles.demoHint}>
@@ -67,10 +66,7 @@ export default function LoginPage() {
           Email: {DEMO_EMAIL}<br />
           Password: {DEMO_PASSWORD}
         </div>
-
-        <div className={styles.signup}>
-          New to Jobs R Us? <a href="#">Join now!</a>
-        </div>
+        
       </div>
     </div>
   );

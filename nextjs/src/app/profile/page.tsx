@@ -82,9 +82,6 @@ export default async function ProfilePage() {
           </div>
         )}
 
-        <a className={styles.resumeBtn} href="#" target="_blank">
-          View Resume
-        </a>
       </div>
     </>
   );
