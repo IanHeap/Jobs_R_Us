@@ -36,7 +36,6 @@ ul a:hover{
 }
 div.form{
     display: flex;
-    position: relative;
     margin: 0 auto;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     background: #fffefe;
@@ -45,22 +44,10 @@ div.form{
     height: 500px;
     border-radius: 20px;
 }
-h2.formHeader{
+h2{
     display: block;
-    margin-left: 0 auto;
-    margin-right: 0auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 10px;
     color: #003366;
-}
-.section{
-    position: absolute;
-    bottom: 325px;
-    left: 30px;
-    margin: auto;
-    
-}
-section{
-    position: absolute;
-    bottom: 180px;
-    left: 30px;
 }
