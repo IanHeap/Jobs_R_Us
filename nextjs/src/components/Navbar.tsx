@@ -4,13 +4,12 @@ import styles from './Navbar.module.css';
 export default function Navbar() {
   return (
     <div className={styles.navbar}>
-      <Link href="/" className={styles.title}>Jobs R Us</Link>
+        <Link href="/" className={styles.title}>Jobs R Us</Link>
       <div className={styles.navLinks}>
         <Link href="/analytics">Analytics</Link>
         <Link href="/jobs">Jobs</Link>
         <Link href="/profile">Profile</Link>
         <Link href="/login">Login</Link>
-        <Link href="/references">References</Link>
       </div>
     </div>
   );
